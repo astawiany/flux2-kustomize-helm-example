@@ -8,6 +8,6 @@ spec:
     spec:
       version: ">=6.1.0"
   values:
-    crds:
-      additionalLabels:
-        - env: "prod"
+    global:
+      logging:
+        format: json

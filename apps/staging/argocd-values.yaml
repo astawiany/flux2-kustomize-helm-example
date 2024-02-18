@@ -8,6 +8,6 @@ spec:
     spec:
       version: ">=6.0.0"
   values:
-    crds:
-      additionalLabels:
-        - env: "staging"
+    global:
+      logging:
+        format: json
